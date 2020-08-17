@@ -1,0 +1,58 @@
+/*三清*/
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+/* 盒子 */
+.box{width: 100%;height: auto;}
+
+/* 最上logo */
+.logoTop{width: 100%;height: 120px;background-color:#e0edfe;}
+.logoCenter{width: 80%;height: 100%;margin: 0 auto;}
+.logoCenter>ul{width: 100%;height: 100%;}
+.logoCenter>ul>li{width: calc(100% / 3);height: 100%;float: left;}
+/* 查询店铺 */
+.serchMap{width: 100px;height: 80px;}
+.serch{width: 100%;height: 40px;background: url(../img/icons.png) no-repeat 0 0/30px 125px;background-position: 0 -103px;text-indent: 20px;margin-top: 25px;font-weight: bold;}
+.serchMap>p{text-indent: 20px;font-style: italic;}
+/* fresh的logo */
+.logoCenter>ul>li:nth-child(2)>a{text-align: center;line-height: 120px;font-weight: 600;font-size: 60px;font-style: italic;letter-spacing: 3px;color: black;}
+/* 搜索 用户 */
+.liRight{width: 400px;height: 50px;margin-top: 35px;}
+.liRight>li{float: left;height: 30px;margin-top: 10px;}
+.liRight>li:nth-child(1){width: 200px;margin-left: 80px;position: relative;}
+.serchIcon{width: 20px;height: 20px;background: url(../img/icons.png) no-repeat 0 0/35px 126px;background-position: 0 -35px;position: absolute;top: 5px;left: 180px;}
+.liRight>li:nth-child(1)>input{width: 200px;height: 100%;text-indent: 10px;outline: none;position: absolute;right: 0;top: 0;font-style: italic;}
+.liRight>li~li{width: 50px;height: 30px;}
+.liRight>li:nth-child(2){background: url(../img/icons.png) no-repeat 0 0/35px 126px;margin-left: 10px;margin-right: 10px;background-position: 5px 0;}
+.liRight>li:nth-child(3){background: url(../img/icons.png) no-repeat 0 0/35px 126px;background-position: 0 -63px;}
+
+/* 导航栏 */
+.nav{width: 100%;height: 50px;background-color: aliceblue;z-index: 10;}
+.navCenter{width: 80%;height: 100%; margin: 0 auto;line-height: 50px;}
+.navCenter>li{float: left;margin-left: 60px;font-weight: bold;font-size: 14px;position: relative;}
+.navCenter>li~li{margin-left: 80px;}
+.navCenter>li:first-child>p{color: darkred;font-size: 25px;font-style: italic;}
+/* 导航栏的显示与隐藏 */
+.listhide{width: 510px;height: 220px;position: absolute;top: 50px;left: 0;border: .5px solid gray;background-color: aliceblue;display: none;z-index: 9;}
+.imgList>li{width: 150px;height: 150px;margin-left: 15px;margin-top:15px;float: left;}
+.imgList>li>img{width: 100%;height: 100%;}
+.buttonList>li{width: 150px;height: 30px;margin-left: 15px;margin-top:15px;float: left;line-height: 30px;font-weight: 400;font-size: 18px;text-align: center;font-style: italic;border: .5px solid black;}
+/* .navCenter>li:first-child:hover>.listhide{display: block;z-index: 9;} */
+.textList{width: 360px;height: 180px;background-color: aliceblue;position: absolute;top: 50px;left: 0;display: none;border: .5px solid gray;z-index: 9;}
+.textList>ul>li{height: 20px;width: 100px;margin-top: 10px;float: left;font-size: 14px;font-weight: 400;}
+.textList>ul>li:first-child{margin-left: 20px;}
+.textList>ul>li:nth-child(2){margin-left: 20px;margin-right: 10px;}
+/* .navCenter>li:nth-child(2):hover>.textList{display: block;z-index: 9;} */
+
+.addCar{width: 175px;height: 50px;line-height: 50px;background-color: #36424A;margin: 0 auto;color: aliceblue;text-align: center;}
+
+/* 底部 */
+footer{width: 100%;height: 180px;background-color:#2a333a;margin-top: 50px;padding-top: 20px;}
+.contact{width: 100%;height: 50px;line-height: 50px;}
+.contactCenter{width: 80%;margin: 0 auto;height: 100%;}
+.footText{width: 80%;height: 150px;margin: 0 auto;}
+.footText>ul>li{float: left;width: calc(100% / 4);height: 100%;line-height: 30px;color: white;}
+
+/* 返回顶部 */
+.top{width: 48px;height: 48px;position: fixed;right: 20px;top: 600px;background-color: #e0edfe;display: none;}

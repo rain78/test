@@ -1,0 +1,83 @@
+/* 轮播图 */
+.rotationChart{width: 100%;height: 500px;background-color: pink;overflow: hidden;position: relative;}
+.imgs{width: 100%;height: 100%;position: relative;/* top: 0;left: 0; */}
+.imgs>li{width: 100%;height: 100%;float: left;position: absolute;top: 0;left: 0;display: none;}
+.imgs>li.imgone{display: block;}
+.imgs>li>img{width: 100%;height: 100%;}
+.
+/* 小圆点 */
+.cirs{width: 100px;height: 20px;position: absolute;right: 20px;bottom: 20px;}
+.rotationChart>.cirs{width: 100px;height: 20px;position: absolute;right: 20px;bottom: 20px;}
+.rotationChart>.cirs>li{width: 10px;height: 10px;border-radius: 10px;margin: 5px;float: left;background-color: rgba(0,0,0,.5);}
+.rotationChart>.cirs>li.dian{background-color: rgba(255,255,255,.5);}
+/* 向左向右 */
+.rotationChart>span{width:40px;height:60px;text-align:center;line-height:60px;position:absolute;top:50%;margin-top:-30px;background:rgba(0,0,0,.5);}
+.rotationChart>span.left{left:20px;z-index: 9;}
+.rotationChart>span.right{right:20px;z-index: 9;}
+
+
+/* 商品分类 */
+.classification{height: 200px;width: 100%;margin-top: 20px;}
+.classificationCenter{width: 80%;height: 100%;margin: 0 auto;}
+.classificationCenter>li{float: left;height: 100%;width: calc((100% - 60px) / 4);}
+.classificationCenter>li>img{width: 100%;height: 100%;}
+.classificationCenter>li~li{margin-left: 20px;}
+
+/* 畅销品 */
+.bestSellers{width: 100%;height: 550px;}
+.bestCenter{width: 80%;height: 100%;margin: 0 auto;overflow: hidden;}
+.bestTop{height: 125px;width: 80%;margin: 25px 10%;}
+.bestTop>img{width: 100%;height: 100%;}
+.bestlb{height: 300px;width: 100%;margin-top: 50px;position: relative;}
+.bestList{width: 200%;height: 100%;position: absolute;}
+.bestList>li{width:265px;height: 100%;margin-left:31px;float: left;}
+.bestImg{width: 80%;height: 175px;margin: 0 auto;}
+.bestImg>a>img{width: 100%;height: 100%;}
+.bestList>li>p{text-align: center;line-height: 35px;}
+.bestList>li>p>a{color: black;}
+.addCar{width: 175px;height: 50px;line-height: 50px;background-color: #36424A;margin: 0 auto;color: aliceblue;text-align: center;}
+/* 向左向右 */
+.bestlb>span{width:40px;height:60px;text-align:center;line-height:60px;position:absolute;top:50%;margin-top:-30px;font-size: 30px;}
+.bestlb>span.leftBest{left:10px;}
+.bestlb>span.rightBest{right:10px;}
+/* 小圆点 */
+.cirBest{width: 160px;height: 20px;position: absolute;right: 530px;bottom: -35px;}
+.cirBest>li{width: 10px;height: 10px;border-radius: 10px;margin: 5px;float: left;background-color: rgba(0,0,0,.2);}
+.cirBest>.dianBest{background-color:black;}
+
+/* 系列 */
+.series{width: 100%;height:495px;}
+.seriesCenter{width: 80%;height: 100%;margin: 0 auto;}
+.serieslist{width: calc((100% - 20px) / 2);height: 145px;float: left;margin-top: 20px;}
+.listRight{margin-left: 20px;}
+.serieslist>a>img{width: 100%;height: 100%;}
+.listRight>a>img{width: 100%;height: 100%;}
+
+
+/* 登录 */
+.login{width: 500px;height: 390px;background-color: white;position: absolute;right: 500px;top:200px;display: none;}
+.loginCenter{width: 80%;height: 100%;background-color: khaki;margin: 0 auto;overflow: hidden;background: url(../img/sprite_wechat_weibo.png) no-repeat;background-position: 180px 280px;}
+.loginCenter>h3{margin-top: 25px;}
+#user,#pass{width: 99%;height: 40px;margin-top: 25px;text-indent: 15px;border: .3px solid lightgray;outline: none;}
+#login,#register{width: 35%;height: 40px;margin-left: 10%;margin-top: 25px;background-color: #36424a;outline: none;border: none;color: white;}
+.loginCenter>p{margin-top: 40px;}
+.loginClose{position: absolute;top: 0;right: 0;width: 25px;height: 25px;}
+.loginClose>img{width: 100%;height: 100%;}
+
+/* 注册 */
+.register{width: 500px;height: 390px;background-color: white;position: absolute;right: 500px;top:200px;display: none;}
+.registerCenter{width: 80%;height: 100%;background-color: khaki;margin: 0 auto;overflow: hidden;background: url(../img/sprite_wechat_weibo.png) no-repeat;background-position: 180px 280px;}
+.registerCenter>h3{margin-top: 25px;}
+#userre,#passre{width: 99%;height: 40px;margin-top: 25px;text-indent: 15px;border: .3px solid lightgray;outline: none;}
+#registerre,#perfect{width: 35%;height: 40px;margin-left: 10%;margin-top: 25px;background-color: #36424a;outline: none;border: none;color: white;}
+.registerCenter>p{margin-top: 40px;}
+.registerClose{position: absolute;top: 0;right: 0;width: 25px;height: 25px;}
+.registerClose>img{width: 100%;height: 100%;}
+
+
+
+
+
+
+
+

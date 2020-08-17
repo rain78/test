@@ -1,0 +1,33 @@
+.lipImg{width: 80%;height: 100px;margin: 0 auto;}
+.lipImg>img{width: 100%;height: 100%;}
+
+/* 内容 */
+.listContent{width: 80%;height:auto;margin: 0 auto;overflow: hidden;}
+/* 查找 */
+.listSerch{width: 100%;height: 50px;margin-top: 30px;}
+.listSerch>li{float: left;width: 200px;height: 100%;line-height: 50px;}
+.listSerch>li:first-child{border: 0.3px solid gray;height: calc(100% - 0.6px);width: calc(150px - 0.6px);font-size: 14px;color: gray;text-indent: 10px;position: relative;}
+/* 筛选 */
+.selectSerch{width: 420px;height: 50px;position: absolute;background-color: #e0edfe;left: 150px;top: 0;display: none;}
+.selectSerch>li{float: left;margin-left: 20px;width: 80px;height: 100%;text-align: center;line-height: 50px;outline: .5px solid gray;}
+.listSerch>li:last-child{margin-left:calc(100% - 350px);text-align: right;font-weight: bold;}
+
+/* 商品展示 */
+.goodList{width: 100%;height: 550px;margin-top: 25px;}
+.goodList>li{float: left;width:calc((100% - 150px) / 3);height: calc(100% - 50px);margin: 25px;position: relative;}
+.goodImg{width: 70%;height: 250px;margin: 0 auto;}
+.goodImg>a>img{width: 100%;height: 100%;}
+.goodList>li>p{text-align: center;}
+.goodList>li>p>a{color: black;}
+.goodList>li>p:nth-child(2){font-size: 25px;}
+.goodList>li>p:nth-child(3){width: 50%;margin: 10px auto;}
+.goodList>li>p:nth-child(4){font-size: 24px;font-weight:bold;margin-bottom: 15px;}
+
+/* 底部商品列表 */
+.listPosition{width: 100%;height: 100%;position: absolute;top: 0px;left: 0px;}
+.goodList>li>.listPosition>p{text-align: center;}
+.goodList>li>.listPosition>p>a{color: black;}
+.goodList>li>.listPosition>p:nth-child(2){font-size: 25px;}
+.goodList>li>.listPosition>p:nth-child(3){width: 50%;margin: 10px auto;}
+.goodList>li>p:nth-child(4){font-size: 24px;font-weight:bold;margin-bottom: 15px;}
+.listPosition:hover{outline:  3px solid #E0EDFE;}
